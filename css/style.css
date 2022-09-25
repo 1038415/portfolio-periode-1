@@ -1,26 +1,24 @@
 body {
-    color: darkblue;
-    background-color: lightgray;
+    color: orange;
+    background-color: lightslategray;
     font-family: Geneva, Verdana, sans-serif;
-  }
-  
-  .card {
-    width: 30vw;
-    border: 4px, solid, darkblue;
-    margin: 0 auto;
   }
   
   .Mario {
     width: 100%;
   }
-  
-  section {
-    color: blue;
-    border-style: solid;
-    border-color: blue;
-  }
+
   
   .name {
     font-style: italic;
     text-align: center;
+  }
+
+  .overMij {
+
+  }
+
+  .imageScale {
+    width: 500px;
+    height: 500px;
   }
