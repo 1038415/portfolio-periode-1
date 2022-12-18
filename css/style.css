@@ -3,7 +3,38 @@ body {
     background-color: lightslategray;
     font-family: Geneva, Verdana, sans-serif;
   }
+
   
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    align-content: center;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: black;
+    color: orange;
+  }
+  
+  .topnav a.active {
+    background-color: #fed8b1;
+    color: black;
+  }
+
+
+  header {
+    font-size: 30px;
+    text-align: center;
+  }
+
   .Mario {
     width: 100%;
   }
@@ -14,11 +45,14 @@ body {
     text-align: center;
   }
 
-  .overMij {
-
-  }
-
   .imageScale {
     width: 500px;
     height: 500px;
+    align-content: center;
+  }
+
+  .formfield {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
   }
